@@ -9,7 +9,13 @@
     ]
   },
   {
-    "outputFileName": "wwwroot/js/site.min.js",
+    // An array of relative input file paths. Globbing patterns supported
+    "inputFiles": [
+      "wwwroot/lib/normalize.css"
+    ],
+    "outputFileName": "wwwroot/lib/normalize.min.css"
+  },
+  {
     "inputFiles": [
       "wwwroot/js/site.js"
     ],
@@ -18,6 +24,7 @@
       "enabled": true,
       "renameLocals": true
     },
+    "outputFileName": "wwwroot/js/site.min.js",
     // Optinally generate .map file
     "sourceMap": false
   }
