@@ -1,9 +1,44 @@
-﻿body {
+﻿
+
+
+                                /************************ HOME Page ****************************/
+
+
+body {
     padding-top: 50px;
     padding-bottom: 20px;
 }
 
-/* Wrapping element */
+
+#mtg{
+
+	background-image:url("../images/business-consulting2.png");
+	background-size: cover;
+}
+
+#info{
+
+    margin-top:50px;
+}
+
+#title{
+
+    font-size:32px;
+    padding-bottom: 2px;
+}
+
+#sub{
+    margin-top:2px;
+    padding-top:-2px;
+    color:red;
+}
+
+#foot {
+
+    color:white;
+}
+
+/* Wrapping element*/
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
@@ -17,17 +52,7 @@ textarea {
     max-width: 280px;
 }
 
-/* Carousel */
-.carousel-caption p {
-    font-size: 20px;
-    line-height: 1.4;
-}
 
-/* Make .svg files in the carousel display properly in older browsers */
-.carousel-inner .item img[src$=".svg"]
-{
-    width: 100%;
-}
 
 /* Hide/rearrange for smaller screens */
 @media screen and (max-width: 767px) {
@@ -35,4 +60,13 @@ textarea {
   .carousel-caption {
     display: none
   }
+}
+
+
+                             /************************ About Page ************************/
+#team{
+
+    background-color:floralwhite;
+    margin-top:85px;
+    line-height:2em;
 }

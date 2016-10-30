@@ -22,14 +22,14 @@
     </environment>
     @Html.ApplicationInsightsJavaScript(TelemetryConfiguration)
 </head>
-<body>
-    <nav class="navbar navbar-dark bg-inverse">
+<body id="mtg">
+    <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
         <ul class="nav navbar-nav">
             <li class="nav-item active">
                 <a class="nav-link navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Mitchell Tax Group <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item nav-link">
-                <a asp-area="" asp-controller="Home" asp-action="About">About</a>
+                <a asp-area="" asp-controller="Home" asp-action="About">Our Team</a>
             </li>
             <li class="nav-item nav-link">
                 <a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
@@ -40,9 +40,10 @@
     
     <div class="container body-content">
         @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; 2016 - Created by Marcus Shipman</p>
+       
+        <footer class="navbar-fixed-bottom">
+
+            <p id="foot">&copy; 2016 - Created by Marcus Shipman</p>
         </footer>
     </div>
 
