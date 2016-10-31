@@ -22,7 +22,14 @@ namespace mitchelltaxgroup.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Contact Us";
+
+            return View();
+        }
+
+        public IActionResult whatTobring()
+        {
+            ViewData["Message"] = "What to Bring With You.";
 
             return View();
         }
