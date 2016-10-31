@@ -10,6 +10,7 @@ namespace mitchelltaxgroup.Controllers
     {
         public IActionResult Index()
         {
+            ViewData["Message"] = "We Provide Tax Solutions for You."; 
             return View();
         }
 
