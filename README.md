@@ -6,6 +6,8 @@ This project was built with ASP.NET MVC Core using:
 
 2.normalize css
 
-3.hosted in Microsoft Azure
+3.font awesome
 
-*This project is solely created,developed and maintain by Marcus Shipman
+4.hosted in Microsoft Azure
+
+*This project is solely created,developed and maintain by Marcus Shipman (aka MRS)
