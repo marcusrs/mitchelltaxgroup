@@ -15,7 +15,7 @@ namespace mitchelltaxgroup.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Get to Know Our Team.";
 
             return View();
         }

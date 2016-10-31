@@ -10,11 +10,15 @@ body {
 }
 
 
-#mtg{
+#mtg {
 
 	background-image:url("../images/business-consulting2.png");
-	background-size: cover;
+    background-repeat:no-repeat;
+	background-size:cover;
+    background-attachment: fixed;
+    background-position:center;
 }
+
 
 #info{
 
@@ -66,7 +70,14 @@ textarea {
                              /************************ About Page ************************/
 #team{
 
-    background-color:floralwhite;
+    background-color:lightgrey;
     margin-top:85px;
     line-height:2em;
+    border-radius: 25px;
+   
+}
+#words{
+
+    font-family:Verdana;
+    padding:15px 15px;
 }

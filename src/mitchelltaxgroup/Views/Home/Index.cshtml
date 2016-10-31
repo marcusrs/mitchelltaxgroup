@@ -1,85 +1,97 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿
+<div class="animated slideInRight">
+    @{
+        ViewData["Title"] = "Home Page";
+    }
 
-<div class="container-fluid text-xl-center" id="title">
+    <div class="container-fluid text-xl-center" id="title">
 
-    <h1> Mitchell Tax Group</h1>
-    <h4 id="sub">"We Provide Tax Solutions for You"</h4>
+        <h1> Mitchell Tax Group</h1>
+        <h4 id="sub">"We Provide Tax Solutions for You"</h4>
 
-</div>
+    </div>
 
-<div class="row" id="info" >
-    <div class="col-md-5 pull-md-2 row">
-        <div id="accordion" role="tablist" aria-multiselectable="true">
-            <div class="card">
-                <div class="card-header" role="tab" id="headingOne">
-                    <h5 class="mb-0">
-                        <a class="collapsed"  data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                            IRS Audit & Liens 
-                        </a>
-                    </h5>
-                </div>
-
-                <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
-                    <div class="card-block">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+    <div class="row" id="info">
+        <div class="col-md-5 pull-md-2 row">
+            <div id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="card">
+                    <div class="card-header" role="tab" id="headingOne">
+                        <h5 class="mb-0">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                IRS Audit & Liens
+                            </a>
+                        </h5>
                     </div>
-                </div>
-            </div>
 
-            <div class="card">
-                <div class="card-header" role="tab" id="headingTwo">
-                    <h5 class="mb-0">
-                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Tax Preparation
-                        </a>
-                    </h5>
-                </div>
-                <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
-                    <div class="card-block">
-                        Tax preparation is the process of preparing tax returns, for personal or for your business. We will help you file  all the right forms and know exactly where you stand with the IRS.<br />Let Us take care of your Tax preparation.<br />
-                        Need Help, We can Help!
-                    </div>
-                </div>
-            </div>
+                    <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="card-block words">
+                            <b>What is an IRS audit?</b><br />
+                            An IRS audit is a review/examination of an organization's or individual's accounts and financial information to ensure information is being reported correctly, according to the tax laws, to verify the amount of tax reported is accurate.<br />
+                            Selecting a return for audit does not always suggest that an error has been made. Returns are selected using a variety of methods, including:<br />
+                            •	Random selection and computer screening - sometimes returns are selected based solely on a statistical formula.<br />
+                            •	Document matching - when payor records, such as Forms W-2 or Form 1099, do not match the information reported.<br />
+                            •	Related examinations - returns can be selected for audit when they involve issues or transactions with other taxpayers, such as business partners or investors, whose returns were selected for audit.<br />
+                            During this process the IRS and/or state taxing agency wants to see proof of the type of income and expenses claimed (in the form of invoices, receipts, bank statements and etc) to determine the income and the expenses that were listed are valid.<br />
+                            If you are faced with IRS audit or state tax audit, it is in your interest to have a qualified tax professional to represent your interests.  We represent individuals and individuals to minimize any potential tax increase.<br />
+                            <b>Please contact us for a consultation.</b>
 
-            <div class="card">
-                <div class="card-header" role="tab" id="headingThree">
-                    <h5 class="mb-0">
-                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Book keeping & Notary
-                        </a>
-                    </h5>
-                </div>
-                <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
-                    <div class="card-block">
-                        <p>
-                            <b>Bookkeeping services for personal and business.</b><br /> We produces financial records for businesses or organizations, record financial transactions, update statements, and check financial records for accuracy.<br /> We are employed in many industries, including providing accounting, tax preparation, and payroll services.
-                            <br /><br /> 
-                            <b>Notary</b><br />
-                            Many documents and transactions require the security and certainty of a notary seal. 
-                            We can assist you with all your notary services needs.
-                            Our licensed professional notary public services make life easier.  
-                            Call for a licensed professional notary services and we will fit your schedule.
-                        </p>
-                    </div>
-                </div>
-             </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingFour">
-                            <h5 class="mb-0">
-                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    Tax Planning and Consultation 
-                                </a>
-                            </h5>
-                        </div>
-                        <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
-                            <div class="card-block">
-                                Every taxpayer is looking for ways to reduce and minimize their tax burden. While most any CPA firm can provide tax preparation services, effective tax planning requires the assistance of a seasoned accounting firm. <br />Mitchell Tax Group works with clients on a year-round basis to understand changes and risks that will impact their tax situation. As a result, we are able to proactively advise clients on how to proceed to ensure the lowest tax burden possible.<br /> Are you facing a complex tax issue? We can Help!
-                            </div>
                         </div>
                     </div>
                 </div>
-      </div>
+
+                <div class="card">
+                    <div class="card-header" role="tab" id="headingTwo">
+                        <h5 class="mb-0">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Tax Preparation
+                            </a>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="card-block words">
+                            Tax preparation is the process of preparing tax returns, for personal or for your business. We will help you file  all the right forms and know exactly where you stand with the IRS.<br />Let Us take care of your Tax preparation.<br />
+                            <b>Need Help, Please contact Us!</b>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" role="tab" id="headingThree">
+                        <h5 class="mb-0">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Book keeping & Notary
+                            </a>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="card-block words">
+                            <p>
+                                <b>Bookkeeping services for personal and business.</b><br /> We produces financial records for businesses or organizations, record financial transactions, update statements, and check financial records for accuracy.<br /> We are employed in many industries, including providing accounting, tax preparation, and payroll services.
+                                <br /><br />
+                                <b>Notary</b><br />
+                                Many documents and transactions require the security and certainty of a notary seal.
+                                We can assist you with all your notary services needs.
+                                Our licensed professional notary public services make life easier.<br />
+                                <b>Contact Us for a licensed professional notary services and we will fit your schedule.</b>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" role="tab" id="headingFour">
+                        <h5 class="mb-0">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Tax Planning and Consultation
+                            </a>
+                        </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
+                        <div class="card-block words">
+                            Every taxpayer is looking for ways to reduce and minimize their tax burden. While most any CPA firm can provide tax preparation services, effective tax planning requires the assistance of a seasoned accounting firm. <br />Mitchell Tax Group works with clients on a year-round basis to understand changes and risks that will impact their tax situation. As a result, we are able to proactively advise clients on how to proceed to ensure the lowest tax burden possible.<br /> Are you facing a complex tax issue?<br /><b> Please Contact Us , We can Help!</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
