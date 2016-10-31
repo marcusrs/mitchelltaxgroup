@@ -23,7 +23,14 @@ body {
 #info{
 
     margin-top:50px;
+    font-size: 2em;
+    font-family:Verdana;
+}
+
+#infotitle{
+  
     font-size: 5em;
+
 }
 
 #title{
