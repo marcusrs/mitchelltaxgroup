@@ -11,7 +11,17 @@ body {
 
 #homelinks{
 
-    margin-bottom:60px;
+   
+}
+
+.wordcard{
+
+    font-family:Verdana;
+    padding:15px 15px;
+    height: 200px;
+    max-height: 200px;
+    overflow-y: scroll;
+   
 }
 
 
@@ -35,7 +45,7 @@ body {
 #infotitle{
   
     font-size: 5em;
-
+    margin-top:10px;
 }
 
 #title{
@@ -53,6 +63,7 @@ body {
 #foot {
 
     color:white;
+    margin-bottom:1px;
 }
 
 /* Wrapping element*/
