@@ -63,7 +63,9 @@ body {
 #foot {
 
     color:white;
+    margin-top:10px;
     margin-bottom:1px;
+    padding-bottom:1px;
 }
 
 /* Wrapping element*/
