@@ -31,7 +31,7 @@ body {
     background-repeat:no-repeat;
 	background-size:cover;
     background-attachment: fixed;
-    background-position: center 50% 50%;
+    background-position: center center;
 }
 
 
@@ -100,8 +100,15 @@ textarea {
     margin-top:85px;
     line-height:2em;
     border-radius: 25px;
-   
 }
+
+#teaminfo{
+
+    height: 500px;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
 #words{
 
     font-family:Verdana;
