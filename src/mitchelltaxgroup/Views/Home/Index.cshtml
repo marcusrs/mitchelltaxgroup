@@ -1,5 +1,5 @@
 ﻿
-<div class="animated slideInRight">
+<div class="animated slideInRight" id="homelinks">
     @{
         ViewData["Title"] = "Mitchell Tax Group";
     }
@@ -7,7 +7,7 @@
     <h4 class="text-lg-center" id="sub">@ViewData["Message"]</h4>
 
     <div class="row" id="info">
-        <div class="col-md-4 pull-md-0 row">
+        <div class="col-xs-5 pull-xs-0 row">
             <div id="accordion" role="tablist" aria-multiselectable="true">
                 <div class="card">
                     <div class="card-header" role="tab" id="headingOne">
@@ -22,10 +22,7 @@
                         <div class="card-block words">
                             <b>What is an IRS audit?</b><br />
                             An IRS audit is a review/examination of an organization's or individual's accounts and financial information to ensure information is being reported correctly, according to the tax laws, to verify the amount of tax reported is accurate.<br />
-                            Selecting a return for audit does not always suggest that an error has been made. Returns are selected using a variety of methods, including:<br />
-                            •	Random selection and computer screening - sometimes returns are selected based solely on a statistical formula.<br />
-                            •	Document matching - when payor records, such as Forms W-2 or Form 1099, do not match the information reported.<br />
-                            •	Related examinations - returns can be selected for audit when they involve issues or transactions with other taxpayers, such as business partners or investors, whose returns were selected for audit.<br />
+                            Selecting a return for audit does not always suggest that an error has been made.<br />
                             During this process the IRS and/or state taxing agency wants to see proof of the type of income and expenses claimed (in the form of invoices, receipts, bank statements and etc) to determine the income and the expenses that were listed are valid.<br />
                             If you are faced with IRS audit or state tax audit, it is in your interest to have a qualified tax professional to represent your interests.  We represent individuals and individuals to minimize any potential tax increase.<br />
                             <li class="nav-item nav-link">
@@ -93,11 +90,11 @@
                     <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
                         <div class="card-block words">
                             Every taxpayer is looking for ways to reduce and minimize their tax burden. While most any CPA firm can provide tax preparation services, effective tax planning requires the assistance of a seasoned accounting firm. <br />Mitchell Tax Group works with clients on a year-round basis to understand changes and risks that will impact their tax situation. As a result, we are able to proactively advise clients on how to proceed to ensure the lowest tax burden possible.<br /> Are you facing a complex tax issue?<br />
-                            <li class="nav-item nav-link">
+                            <div class="nav-item nav-link">
                                 <a asp-area="" asp-controller="Home" asp-action="Contact">
                                     <b> Please Contact Us , We can Help!</b>
                                 </a>
-                            </li>
+                            </div>
                         </div>
                     </div>
                 </div>
