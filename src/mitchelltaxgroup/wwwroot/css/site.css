@@ -81,7 +81,7 @@ body {
 input,
 select,
 textarea {
-    max-width: 280px;
+   
 }
 
 
@@ -120,14 +120,6 @@ textarea {
     overflow-y: scroll;
 }
 
-#words2{
-   
-    font-family:Verdana;
-    padding:15px 15px;
-    height: 500px;
-    max-height: 500px;
-    overflow-y:scroll;
-}
 
                                /************************ Contact Page ************************/
 #contact{
@@ -143,7 +135,43 @@ textarea {
     margin-top:40px;
 }
 
-#messagesub{
-
-    font-size:4em;
+#messagesub {
+    font-size: 4em;
 }
+
+
+                              /************************ Compromise Page ***********************/
+
+#words3{ 
+
+    font-family:Verdana;
+    padding:15px 15px;
+    
+
+}
+
+                                   /************************ IRS Levy Page ***********************/
+
+#words2{
+   
+    font-family:Verdana;
+    padding:15px 15px;
+    
+}
+
+
+                                 /************************ NoneCollectible Page ***********************/
+#words4{
+   
+    font-family:Verdana;
+    padding:15px 15px;
+}
+
+
+                                  /************************ InjuryRelief Page ***********************/
+#words5{
+   
+    font-family:Verdana;
+    padding:15px 15px;    
+}
+

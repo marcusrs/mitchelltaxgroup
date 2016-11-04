@@ -1,0 +1,41 @@
+﻿
+<div class="container-fluid animated slideInLeft" id="team">
+    <div class="col-lg-12 offset-lg-11">
+        <a asp-area="" asp-controller="Home" asp-action="Index"><i class="fa fa-home fa-2x" aria-hidden="true"></i>home</a>
+    </div>
+
+    @{
+        ViewData["Title"] = "Mitchell Tax Group";
+    }
+    <h4 class="text-lg-center">@ViewData["Title"]</h4>
+    <h2 class="text-lg-center">@ViewData["Message"]</h2>
+
+    <p id="words5">
+        <b>Innocent Spouse</b><br /><br />
+
+        Generally, married taxpayers choose to file a joint tax return because of certain benefits this filing status allows. When filing jointly, both taxpayers are liable for the tax and any additions to tax, interest, or penalties that arise because of the joint return even if they later divorce.  This means that each taxpayer is legally responsible for the entire liability.<br /><br />
+
+        <b>There are three types of relief for spouses who filed joint returns:</b><br />
+           <ul>
+              <li>Innocent Spouse Relief provides you relief from additional tax you owe if your spouse or former spouse failed to report income, reported income improperly or claimed improper deductions or credits.</li>
+              <br />
+              <li>Separation of Liability Relief provides for the allocation of additional tax owed between you and your former spouse or your current spouse from whom you are separated due to an item that was not reported properly on a joint return. The tax allocated to you is the amount for which you are responsible</li>.
+              <br />
+              <li>
+                Equitable Relief may apply when you do not qualify for innocent spouse relief or separation of liability relief for something not reported properly on a joint return and generally attributable to your spouse. You may also qualify for equitable relief if the correct amount of tax was reported on your joint return but the tax remains unpaid.
+              </li>
+          </ul><br />
+
+        <b>Injured Spouse</b><br /><br />
+
+        You may be an injured spouse if you file a joint tax return and all or part of your portion of a refund was, or is expected to be applied to your spouse’s legally enforceable past due financial obligations.   This can easily be cleared up by filing form 8379, Injured Souse Claim along with your joint tax return.<br />
+
+        To be considered an injured spouse; you must have paid federal income tax or claimed a refundable tax credit, such as the Earned Income Credit or Additional Child Tax Credit on the joint return, and not be legally obligated to pay the past-due debt.<br /><br />
+
+        <a asp-area="" asp-controller="Home" asp-action="Contact">
+            <b>Call us for a free consultation to find out if you qualify for Innocent or Injured Spouse Relief.</b>
+        </a>
+    </p>
+</div>
+
+

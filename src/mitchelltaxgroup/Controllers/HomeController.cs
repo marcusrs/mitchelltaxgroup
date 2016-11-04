@@ -23,28 +23,28 @@ namespace mitchelltaxgroup.Controllers
 
         public IActionResult IRSlevy()
         {
-            ViewData["Message"] = " CNC/Levy Release/Abatement.";
+            ViewData["Message"] = "Levy Release/Abatement.";
 
             return View();
         }
 
         public IActionResult Compromise()
         {
-            ViewData["Message"] = "What to Bring With You.";
+            ViewData["Message"] = "Offer In Compromise, (OIC).";
 
             return View();
         }
 
         public IActionResult NoneCollectible()
         {
-            ViewData["Message"] = "What to Bring With You.";
+            ViewData["Message"] = " CNC/Abatement";
 
             return View();
         }
 
         public IActionResult InjuryRelief()
         {
-            ViewData["Message"] = "What to Bring With You.";
+            ViewData["Message"] = "Innocent Spouse/Injured Spouse .";
 
             return View();
         }
