@@ -9,11 +9,6 @@ body {
     padding-bottom: 20px;
 }
 
-#homelinks{
-
-   
-}
-
 .wordcard{
 
     font-family:Verdana;
@@ -23,7 +18,6 @@ body {
     overflow-y: scroll;
    
 }
-
 
 #mtg {
 
@@ -61,6 +55,13 @@ body {
     color:red;
 }
 
+
+#babyimage {
+    margin-top: 20px;
+    background-color: none;
+     opacity: 2;
+}
+         
 #foot {
 
     color:white;
@@ -117,6 +118,15 @@ textarea {
     height: 500px;
     max-height: 500px;
     overflow-y: scroll;
+}
+
+#words2{
+   
+    font-family:Verdana;
+    padding:15px 15px;
+    height: 500px;
+    max-height: 500px;
+    overflow-y:scroll;
 }
 
                                /************************ Contact Page ************************/

@@ -14,6 +14,55 @@ namespace mitchelltaxgroup.Controllers
             return View();
         }
 
+        public IActionResult Installments()
+        {
+            ViewData["Message"] = "Installment Agreement.";
+
+            return View();
+        }
+
+        public IActionResult IRSlevy()
+        {
+            ViewData["Message"] = " CNC/Levy Release/Abatement.";
+
+            return View();
+        }
+
+        public IActionResult Compromise()
+        {
+            ViewData["Message"] = "What to Bring With You.";
+
+            return View();
+        }
+
+        public IActionResult NoneCollectible()
+        {
+            ViewData["Message"] = "What to Bring With You.";
+
+            return View();
+        }
+
+        public IActionResult InjuryRelief()
+        {
+            ViewData["Message"] = "What to Bring With You.";
+
+            return View();
+        }
+
+        public IActionResult Audit()
+        {
+            ViewData["Message"] = "What to Bring With You.";
+
+            return View();
+        }
+
+        public IActionResult Lien()
+        {
+            ViewData["Message"] = "What to Bring With You.";
+
+            return View();
+        }
+
         public IActionResult About()
         {
             ViewData["Message"] = "Get to Know Our Team.";
