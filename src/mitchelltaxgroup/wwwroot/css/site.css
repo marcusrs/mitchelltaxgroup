@@ -159,7 +159,15 @@ textarea {
  box-sizing:border-box; 
 }
 
+.inputbutton{
 
+    border-radius:10px;
+}
+
+.container-fluid{
+
+    background-color:white;
+}
 
 form {
    max-width: 600px;
