@@ -144,7 +144,7 @@ textarea {
     color: white;
     background: red;
     cursor: pointer;
-    width: 600px;
+    width: 570px;
     border-radius: 25px;
     box-shadow: 0 1px 1px 1px 0.6px;
 }
@@ -167,10 +167,11 @@ textarea {
 .container-fluid{
 
     background-color:white;
+    padding-bottom:30px;
 }
 
 form {
-    max-width: 580px;
+    max-width: 600px;
     margin: 20px auto;
     border-radius: 8px;
     border: 0;
