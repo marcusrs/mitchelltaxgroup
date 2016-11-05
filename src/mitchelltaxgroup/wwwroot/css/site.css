@@ -21,7 +21,7 @@ body {
 
 #mtg {
 
-	background-image:url("../images/business-consulting2.png");
+	background-image:url("../images/business-consulting2.jpg");
     background-repeat:no-repeat no-repeat;
 	background-size:cover;
     background-attachment: fixed;
@@ -60,6 +60,13 @@ body {
     margin-top: 20px;
     background-color: none;
      opacity: 2;
+}
+
+#babyimage2 {
+   
+    background-color: none;
+    margin-bottom:20px;
+    opacity: 8;
 }
          
 #foot {
