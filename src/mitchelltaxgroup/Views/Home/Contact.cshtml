@@ -8,7 +8,7 @@
         ViewData["Title"] = "Mitchell Tax Group";
     }
     <h4 class="text-lg-center">@ViewData["Title"]</h4>
-    <h1 class="text-lg-center" id="messagesub">@ViewData["Message"]</h1>
+    <h2 class="text-lg-center" id="messagesub">@ViewData["Message"]</h2>
 
 
     
@@ -27,8 +27,9 @@
         <label for="exampleTextarea">Message</label>
         <textarea class="form-control inputbutton" id="exampleTextarea" rows="3">Message</textarea>
     </div>
-   
-    <button type="submit" class="btn btn-primary btn-lg" id="input-submit">Submit</button>
+        <div class="form-group half left cf">
+            <button type="submit" class="btn btn-primary btn-lg" id="input-submit">Submit</button>
+        </div>
 </form>
 
 
@@ -41,9 +42,9 @@
             </h5><br />
             <div class="text-lg-center">
                 <i class="fa fa-volume-control-phone fa-2x" aria-hidden="true">843-552-2454</i>&emsp;&emsp;&emsp;
-                <i class="fa fa-fax fa-2x" aria-hidden="true">843-552-2118</i>
+                <i class="fa fa-fax fa-2x" aria-hidden="true">843-552-2118</i><br /><br />
                 <div class="col-sm-3 pull-sm-0 row" id="babyimage2">
-                    <img src="~/images/irlogo6.jpg" alt="IRS logo" asp-append-version="true" />
+                    <img src="~/images/irlogo6.jpg" alt="IRS logo" data-respond asp-append-version="true" />
                 </div>
             </div>
         </div><br /><br /> 
