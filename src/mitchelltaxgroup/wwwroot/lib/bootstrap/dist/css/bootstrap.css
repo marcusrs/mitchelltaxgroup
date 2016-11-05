@@ -759,21 +759,21 @@ pre code {
 
 
 @media (min-width: 176px) {
-  .container #mtg #babyimage2 {
+  .container #babyimage #babyimage2 {
     width: 140px;
     max-width: 100%;
   }
 }
 
 @media (min-width: 276px) {
-  .container #mtg #babyimage2 {
+  .container #babyimage #babyimage2 {
     width: 240px;
     max-width: 100%;
   }
 }
 
 @media (min-width: 376px) {
-  .container #mtg #babyimage2 {
+  .container #babyimage #babyimage2 {
     width: 340px;
     max-width: 100%;
   }
@@ -781,28 +781,28 @@ pre code {
 
 
 @media (min-width: 476px) {
-  .container #mtg #babyimage2 {
+  .container #babyimage #babyimage2 {
     width: 440px;
     max-width: 100%;
   }
 }
 
 @media (min-width: 576px) {
-  .container #mtg {
+  .container  {
     width: 540px;
     max-width: 100%;
   }
 }
 
 @media (min-width: 768px) {
-  .container #mtg {
+  .container {
     width: 720px;
     max-width: 100%;
   }
 }
 
 @media (min-width: 992px) {
-  .container #mtg  {
+  .container  {
     width: 960px;
     max-width: 100%;
   }
