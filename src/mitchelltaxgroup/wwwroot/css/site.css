@@ -170,26 +170,23 @@ textarea {
 }
 
 form {
-   max-width: 600px;
-   text-align:;
-   margin: 20px auto;
-  border-radius:8px;
-  input,exampleTextarea {
-     border:0; outline:0;
-     padding: 1em;
-     
-     display: block;
-     width: 100%;
-     margin-top: 1em;
-     font-family: 'Merriweather', sans-serif;
-     box-shadow:0 1px 1px black, 0.1px;
-     resize: none;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 8px;
+    border: 0;
+    outline: 0;
+    padding: 1em;
+    display: block;
+    width: 100%;
+    margin-top: 1em;
+    font-family: 'Merriweather', sans-serif;
+    box-shadow: 0 1px 1px black, 0.1px;
+    resize: none;
+}
     
-    &:focus {
+ form:focus {
       box-shadow:0 0px 2px red, 1px;
     }
-  }
-}
                                     /* Clearfix */
 .cf:before,
 .cf:after {
