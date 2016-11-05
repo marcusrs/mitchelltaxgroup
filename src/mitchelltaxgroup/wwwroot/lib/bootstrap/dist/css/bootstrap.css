@@ -759,29 +759,28 @@ pre code {
 
 
 @media (min-width: 176px) {
-  .container #babyimage #babyimage2 {
+  .container #babyimage #babyimage2 #mtg{
     width: 140px;
     max-width: 100%;
   }
 }
 
 @media (min-width: 276px) {
-  .container #babyimage #babyimage2 {
+  .container #babyimage #babyimage2 #mtg{
     width: 240px;
     max-width: 100%;
   }
 }
 
 @media (min-width: 376px) {
-  .container #babyimage #babyimage2 {
+  .container #babyimage #babyimage2 #mtg{
     width: 340px;
     max-width: 100%;
   }
 }
 
-
 @media (min-width: 476px) {
-  .container #babyimage #babyimage2 {
+  .container #babyimage #babyimage2 #mtg {
     width: 440px;
     max-width: 100%;
   }
