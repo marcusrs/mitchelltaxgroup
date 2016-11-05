@@ -758,6 +758,13 @@ pre code {
 }
 
 
+@media (min-width: 176px) {
+  .container #mtg #babyimage2 {
+    width: 140px;
+    max-width: 100%;
+  }
+}
+
 @media (min-width: 276px) {
   .container #mtg #babyimage2 {
     width: 240px;
