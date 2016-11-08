@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
+
 namespace mitchelltaxgroup.Controllers
 {
     public class HomeController : Controller

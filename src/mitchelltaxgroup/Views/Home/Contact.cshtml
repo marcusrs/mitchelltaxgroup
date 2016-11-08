@@ -1,4 +1,6 @@
-﻿
+﻿@model mitchelltaxgroup.Models.EmailFormModel
+
+
 <div class="container-fluid animated slideInLeft" id="contact">
     <div class="col-lg-12 offset-lg-11">
         <a asp-area="" asp-controller="Home" asp-action="Index"><i class="fa fa-home fa-2x" aria-hidden="true"></i>home</a>
@@ -10,26 +12,27 @@
     <h4 class="text-lg-center">@ViewData["Title"]</h4>
     <h2 class="text-lg-center" id="messagesub">@ViewData["Message"]</h2>
 
-
-    
-    <form class="cf">
+    <form class="cf" action="~/contact/contact.php" method="post">
     <div class="form-group half left cf">
+
+        <div class="form-group half left cf">
+            <label for="exampleInputPassword1">Topic</label>
+            <input type="text" class="form-control inputbutton contact-subject form-control" id="exampleInputPassword1 contact-subject" placeholder="Topic">
+        </div>
+
         <label for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control inputbutton" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" runat="server">
+        <input type="email" class="form-control inputbutton contact-email form-control" id="exampleInputEmail1 contact-email" aria-describedby="emailHelp" placeholder="Enter email">
         <small id="emailHelp" class="form-text text-muted"></small>
     </div>
-    <div class="form-group half left cf">
-        <label for="exampleInputPassword1">Subject</label>
-        <input type="text" class="form-control inputbutton" id="exampleInputPassword1" placeholder="Subject" runat="server">
-    </div>
+    
 
     <div class="form-group half left cf">
         <label for="exampleTextarea">Message</label>
-        <textarea class="form-control inputbutton" id="exampleTextarea" rows="3" placeholder="Message" runat="server"></textarea>
+        <textarea class="form-control inputbutton contact-message form-control" id="exampleTextarea contact-message" rows="3" placeholder="Message"></textarea>
     </div>
         <div class="form-group half left cf">
             <button type="submit" class="btn btn-primary btn-lg" runat="server" id="input-submit">Submit</button>
-        </div>
+        </div>       
 </form>
 
 
@@ -50,5 +53,6 @@
         </div><br /><br /> 
     </div>
 </div>
+
 
   

@@ -4,10 +4,8 @@
     "preserveCompilationContext": true
   },
   "dependencies": {
-    "Microsoft.NETCore.App": {
-      "type": "platform",
-      "version": "1.0.1"
-    },
+    "BundlerMinifier.Core": "2.2.301",
+    "Microsoft.ApplicationInsights.AspNetCore": "1.0.2",
     "Microsoft.AspNetCore.Diagnostics": "1.0.0",
     "Microsoft.AspNetCore.Mvc": "1.0.1",
     "Microsoft.AspNetCore.Razor.Tools": {
@@ -24,10 +22,12 @@
     "Microsoft.Extensions.Logging.Console": "1.0.0",
     "Microsoft.Extensions.Logging.Debug": "1.0.0",
     "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0",
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.1.0-preview1-001100-00"
+    },
     "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0",
-    "BundlerMinifier.Core": "2.2.296",
-    "Microsoft.ApplicationInsights.AspNetCore": "1.0.2",
-    "MailKit": "1.10.0"
+    "System.Net.Mail": "1.0.0-rtm-00002"
   },
   "frameworks": {
     "netcoreapp1.0": {
