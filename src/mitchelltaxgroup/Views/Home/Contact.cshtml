@@ -1,4 +1,5 @@
-﻿@model mitchelltaxgroup.Models.EmailFormModel
+﻿
+@model mitchelltaxgroup.Models.EmailFormModel
 
 
 <div class="container-fluid animated slideInLeft" id="contact">
@@ -12,26 +13,31 @@
     <h4 class="text-lg-center">@ViewData["Title"]</h4>
     <h2 class="text-lg-center" id="messagesub">@ViewData["Message"]</h2>
 
-    <form class="cf" action="~/contact/contact.php" method="post">
+    <form asp-action="Contact" method="post" class="cf">
+        
+    <div asp-validation-summary="All" class="text-danger"></div>
     <div class="form-group half left cf">
 
         <div class="form-group half left cf">
-            <label for="exampleInputPassword1">Topic</label>
-            <input type="text" class="form-control inputbutton contact-subject form-control" id="exampleInputPassword1 contact-subject" placeholder="Topic">
+            <label asp-for="FromName">Name</label>
+            <input asp-for="FromName" class="form-control" id="contact-subject" placeholder="Enter Your full Name">
+            <span asp-validation-for="FromName" class="text-danger"></span>
         </div>
 
-        <label for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control inputbutton contact-email form-control" id="exampleInputEmail1 contact-email" aria-describedby="emailHelp" placeholder="Enter email">
-        <small id="emailHelp" class="form-text text-muted"></small>
+        <label asp-for="FromEmail">Email</label>
+        <input asp-for="FromEmail" class="form-control" id="contact-email" aria-describedby="emailHelp" placeholder="Enter your email">
+        <span asp-validation-for="FromEmail" class="text-danger"></span>
+        
     </div>
     
 
     <div class="form-group half left cf">
-        <label for="exampleTextarea">Message</label>
-        <textarea class="form-control inputbutton contact-message form-control" id="exampleTextarea contact-message" rows="3" placeholder="Message"></textarea>
+        <label asp-for="Message">Message</label>
+        <textarea  asp-for="Message" class="form-control" id="contact-message" rows="3" placeholder="Please Leave a detail Message and Contact Number"></textarea>
+        <span asp-validation-for="Message" class="text-danger"></span>
     </div>
         <div class="form-group half left cf">
-            <button type="submit" class="btn btn-primary btn-lg" runat="server" id="input-submit">Submit</button>
+            <button type="submit" class="btn btn-primary btn-lg" id="input-submit">Submit</button>
         </div>       
 </form>
 
@@ -53,6 +59,7 @@
         </div><br /><br /> 
     </div>
 </div>
+
 
 
   

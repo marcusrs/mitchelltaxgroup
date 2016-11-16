@@ -21,12 +21,13 @@ body {
 
 #mtg {
 
-	background-image:url("../images/business-consulting2.jpg");
+	background-image:url("../images/shutterstock10.jpg");
     background-repeat:no-repeat no-repeat;
 	background-size:cover;
     background-attachment:fixed;
-    background-position:center left;
+    background-position:top center;
     margin-bottom:150px;
+    margin-top:50px;
 }
 
 
@@ -57,7 +58,7 @@ body {
 
 
 #babyimage {
-    margin-top: 30px;
+    margin-top: 90px;
     background-color:none;
     opacity: 2;
     border-style:none;

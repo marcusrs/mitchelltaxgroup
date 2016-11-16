@@ -1,5 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-
+using System.Net.Mail;
+using System;
+using System.Net;
+using System.Threading.Tasks;
+using mitchelltaxgroup.Models;
 
 namespace mitchelltaxgroup.Controllers
 {
@@ -7,7 +11,7 @@ namespace mitchelltaxgroup.Controllers
     {
         public IActionResult Index()
         {
-            ViewData["Message"] = "We Provide Tax Solutions for You."; 
+            ViewData["Message"] = "We Provide Tax Solutions for You.";
             return View();
         }
 
@@ -67,9 +71,31 @@ namespace mitchelltaxgroup.Controllers
             return View();
         }
 
+
+
+        [HttpGet]
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Contact Us";
+
+            return View();
+        }
+
+
+        [HttpPost]
+        public IActionResult Contact(EmailFormModel model)
+        {  
+            if(ModelState.IsValid)
+            {
+
+
+            }
+
+            return View();
+        }
+
+
+        public IActionResult Sent()
+        {
 
             return View();
         }
