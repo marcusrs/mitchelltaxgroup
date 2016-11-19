@@ -4,11 +4,14 @@ using System;
 using System.Net;
 using System.Threading.Tasks;
 using mitchelltaxgroup.Models;
+using mitchelltaxgroup.Services;
 
 namespace mitchelltaxgroup.Controllers
 {
     public class HomeController : Controller
     {
+        private IMailer _mailer;
+
         public IActionResult Index()
         {
             ViewData["Message"] = "We Provide Tax Solutions for You.";
@@ -64,6 +67,13 @@ namespace mitchelltaxgroup.Controllers
             return View();
         }
 
+        public IActionResult whatTobring()
+        {
+            ViewData["Message"] = "What to Bring With You.";
+
+            return View();
+        }
+
         public IActionResult About()
         {
             ViewData["Message"] = "Get to Know Our Team.";
@@ -87,7 +97,9 @@ namespace mitchelltaxgroup.Controllers
             if(ModelState.IsValid)
             {
 
-
+                _mailer.SendMail(model.FromName, model.FromEmail, model.Message);
+                ModelState.Clear();
+                ViewBag.Notify = "Your Message was sent successfully. Someone will contact you soon.";
             }
 
             return View();
@@ -100,12 +112,13 @@ namespace mitchelltaxgroup.Controllers
             return View();
         }
 
-        public IActionResult whatTobring()
+        public HomeController(IMailer mailer)
         {
-            ViewData["Message"] = "What to Bring With You.";
 
-            return View();
+            _mailer = mailer;
         }
+
+      
 
         public IActionResult Error()
         {

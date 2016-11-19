@@ -14,7 +14,13 @@
     <h2 class="text-lg-center" id="messagesub">@ViewData["Message"]</h2>
 
     <form asp-action="Contact" method="post" class="cf">
-        
+        @if(ViewBag.Notify !=null)
+        {
+
+            <span class="notify">@ViewBag.Notify</span>
+
+        }
+
     <div asp-validation-summary="All" class="text-danger"></div>
     <div class="form-group half left cf">
 

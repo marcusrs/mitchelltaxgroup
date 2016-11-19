@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using mitchelltaxgroup.Services;
 
 namespace mitchelltaxgroup
 {
@@ -33,6 +34,7 @@ namespace mitchelltaxgroup
             services.AddApplicationInsightsTelemetry(Configuration);
 
             services.AddMvc();
+            services.AddScoped<IMailer, Mailer>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

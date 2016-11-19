@@ -8,6 +8,6 @@ namespace mitchelltaxgroup.Services
     public interface IMailer
     {
 
-        bool SendMail(string FromName, string email, string message);
+        bool SendMail(string FromName, string FromEmail, string Message);
     }
 }

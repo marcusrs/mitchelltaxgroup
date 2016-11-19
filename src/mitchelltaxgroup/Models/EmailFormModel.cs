@@ -13,7 +13,7 @@ namespace mitchelltaxgroup.Models
         public string FromEmail { get; set; }
 
         [Required]
-        [MinLength(10, ErrorMessage ="Please leave a detail Message")]
+        [MinLength(20, ErrorMessage ="Please leave a detail Message")]
         public string Message { get; set; }
 
     }
