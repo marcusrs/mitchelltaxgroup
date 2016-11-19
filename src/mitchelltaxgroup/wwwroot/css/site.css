@@ -21,13 +21,19 @@ body {
 
 #mtg {
 
-	background-image:url("../images/shutterstock10.jpg");
+	background-image:url("../images/shutterstock_247079512.jpg");
     background-repeat:no-repeat no-repeat;
 	background-size:cover;
     background-attachment:fixed;
     background-position:top center;
     margin-bottom:150px;
-    margin-top:50px;
+    margin-top:140px;
+    
+}
+
+#bar{
+
+    padding-bottom:3px;
 }
 
 
@@ -58,7 +64,7 @@ body {
 
 
 #babyimage {
-    margin-top: 90px;
+    margin-top: 150px;
     background-color:none;
     opacity: 2;
     border-style:none;
@@ -271,3 +277,23 @@ form {
     padding:15px 15px;    
 }
 
+
+
+#bg{
+
+  position:fixed; 
+  top: 0; 
+  left: 0;
+  	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height:100%;
+   
+}
+
+#error { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
