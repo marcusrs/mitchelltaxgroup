@@ -97,7 +97,7 @@ namespace mitchelltaxgroup.Controllers
             if(ModelState.IsValid)
             {
 
-                _mailer.SendMail(model.FromName, model.FromEmail, model.Message);
+                _mailer.SendMail(model.Name, model.Email, model.Message);
                 ModelState.Clear();
                 ViewBag.Notify = "Your Message was sent successfully. Someone will contact you soon.";
             }

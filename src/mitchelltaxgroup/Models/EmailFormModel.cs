@@ -7,10 +7,10 @@ namespace mitchelltaxgroup.Models
     {
         [Required, Display(Name = "Your name")]
         [StringLength(30, MinimumLength =3, ErrorMessage ="Full Name characters must between 3 and 30")]
-        public string FromName { get; set; }
+        public string Name { get; set; }
 
         [Required, Display(Name = "Your email"), EmailAddress]
-        public string FromEmail { get; set; }
+        public string Email { get; set; }
 
         [Required]
         [MinLength(20, ErrorMessage ="Please leave a detail Message")]

@@ -11,11 +11,11 @@ namespace mitchelltaxgroup.Services
 {
     public class Mailer : IMailer
     {
-        public bool SendMail(string FromName, string FromEmail, string Message)
+        public bool SendMail(string Name, string Email, string Message)
         {
             var emailMessage = new MimeMessage();
 
-            emailMessage.From.Add(new MailboxAddress(FromName, FromEmail));
+            emailMessage.From.Add(new MailboxAddress(Name, Email));
             emailMessage.To.Add(new MailboxAddress("Marcus Shipman", "marcusshipman@yahoo.com"));
             emailMessage.Subject = "Email from ";
             emailMessage.Body = new TextPart("plain") { Text = "message" };
